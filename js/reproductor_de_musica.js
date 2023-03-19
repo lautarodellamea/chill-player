@@ -1,7 +1,7 @@
 // Song data
 const songList = [
   {
-    title: "Amakna",
+    title: "Astrub",
     file: "astrub.mp3",
     cover: "arbol.png",
   },
