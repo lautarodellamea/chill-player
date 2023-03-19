@@ -79,7 +79,7 @@ function loadSong(songIndex) {
     changeActiveClass(actualSong, songIndex);
     actualSong = songIndex;
 
-    audio.src = `../audio/${songList[songIndex].file}`;
+    audio.src = `./audio/${songList[songIndex].file}`;
     playSong();
     changeCover(songIndex);
   }
