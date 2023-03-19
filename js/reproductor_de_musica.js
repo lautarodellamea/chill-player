@@ -2,7 +2,7 @@
 const songList = [
   {
     title: "Amakna",
-    file: "amakna.mp3",
+    file: "astrub.mp3",
     cover: "arbol.png",
   },
   {
