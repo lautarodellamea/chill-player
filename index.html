@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <meta name="theme-color" content="#5b672d">
+  <title>Chill Player</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/42f1b65deb.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/reproductor-de-musica.css">
+</head>
+
+<body>
+
+  <!-- Player -->
+  <main class="player">
+    <!-- title -->
+    <h1 class="title" id="title">Seleciona tu cancion</h1>
+
+    <!-- Cover -->
+    <img src="./images/fuego.gif" alt="" class="cover" id="cover">
+
+    <!-- Audio HTML Media element -->
+    <audio src="" id="audio"></audio>
+
+    <!-- Progress bar -->
+    <div id="progress-container" class="progress-container">
+      <section id="progress" class="progress"></section>
+    </div>
+
+    <!-- Controls -->
+    <section class="controls ">
+      <button class="prev">
+        <i id="prev" class="fas fa-backward disable-controls"></i>
+      </button>
+      <button class="play">
+        <i id="play" class="fas fa-play disable-controls"></i>
+      </button>
+      <button class="next">
+        <i id="next" class="fas fa-forward disable-controls"></i>
+      </button>
+    </section>
+
+    <!-- Song list -->
+    <ul class="songs" id="songs">
+      <!--       <li><a href="#">Song 1</a></li>
+      <li><a class="active" href="#">Song 2</a></li>
+      <li><a href="#">Song 3</a></li> -->
+    </ul>
+
+    <img class="caballero" src="/images/caballero.gif" alt="caballero medieval">
+    <img class="fuego" id="fuego" src="./images/fuego.gif" alt="fuego">
+
+  </main>
+
+  <img class="caballero-body" src="./images/caballero.gif" alt="caballero medieval">
+
+
+
+
+  <script src="./js/reproductor_de_musica.js"></script>
+</body>
+
+</html>
